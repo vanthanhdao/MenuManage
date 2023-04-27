@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuListFragment"
+    android:id="@+id/frame_menulist"
+    >
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:background="#ECE8E8"
+    android:gravity="center">
+
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtoneditM"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@android:drawable/ic_input_add" />
+
+                <GridView
+                    android:numColumns="1"
+                    android:id="@+id/lstMenu1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </GridView>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Xóa danh mục" android:id="@+id/menudelete" />
+    <item android:title="Cập nhật danh mục" android:id="@+id/menuedit"/>
+
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Cập nhật món ăn" android:id="@+id/menueditM"/>
+    <item android:title="Xóa món ăn" android:id="@+id/menudeleteM"/>
+    <item android:title="Thêm vào mục yêu thích" android:id="@+id/menuaddM"/>
+</menu>
